@@ -23,7 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 permalink: pretty
-sections: A Pakistan by Suhail Zaheer Lari, B Heritage by Suhail Zaheer Lari
+sections: A What a Life, B Media Mafia, C Clash of Ideas
 
 
 # Build settings
@@ -32,6 +32,10 @@ theme: minima
 exclude:
   - Gemfile
   - Gemfile.lock
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
 - chapters
