@@ -23,7 +23,7 @@ url: "http://www.suhaillaripakistan.com" # the base hostname & protocol for your
 # twitter_username: jekyllrb
 # github_username:  jekyll
 permalink: pretty
-sections: A Pakistan, B Heritage, C Supreme Court, D Clash of Ideas
+sections: Front Matter, Part A Pakistan, Part B Heritage, Part C Supreme Court, Part D Clash of Ideas
 
 
 # Build settings
@@ -33,9 +33,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
-  - jekyll-seo-tag
+plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
 
 collections:
 - chapters
