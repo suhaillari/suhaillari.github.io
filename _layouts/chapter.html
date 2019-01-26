@@ -24,14 +24,14 @@ layout: default
         {% assign prev_index = current_index | minus: 1 %}
 
         <ul class="chapter-navigation">
-            {% if next_index < site.chapters.size %} <li>
-                <a href="{{ site.chapters[next_index].url }}">{{ site.chapters[next_index].title | escape }}</a>
+            {% if next_index < chapters.size %} <li>
+                Next: <a href="{{ chapters[next_index].url }}">{{ chapters[next_index].title | escape }}</a>
                 </li>
                 {% endif %}
 
                 {% if prev_index >= 0 %}
                 <li>
-                    <a href="{{ site.chapters[prev_index].url }}">{{ site.chapters[prev_index].title | escape }}</a>
+                    Previous: <a href="{{ chapters[prev_index].url }}">{{ chapters[prev_index].title | escape }}</a>
                 </li>
                 {% endif %}
 
