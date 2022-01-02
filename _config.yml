@@ -39,9 +39,6 @@ plugins:
   - jekyll-redirect-from
 
 collections:
-- chapters
-
-collections:
   chapters:
     output: true
 
