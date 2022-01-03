@@ -24,7 +24,8 @@ url: "https://www.suhaillaripakistan.com" # the base hostname & protocol for you
 # github_username:  jekyll
 permalink: pretty
 sections: Front Matter, Part A Pakistan, Part B Heritage, Part C Supreme Court, Part D Muslims Fail
-
+book:
+  title: "Selected Chapters from 'What a Life'"
 
 # Build settings
 markdown: kramdown
